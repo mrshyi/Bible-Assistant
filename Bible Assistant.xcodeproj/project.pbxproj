@@ -26,11 +26,6 @@
 		5076121B18CAA7460043773C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5076121918CAA7460043773C /* Main_iPhone.storyboard */; };
 		5076121E18CAA7460043773C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5076121C18CAA7460043773C /* Main_iPad.storyboard */; };
 		5076122318CAA7470043773C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5076122218CAA7470043773C /* Images.xcassets */; };
-		5076122A18CAA7470043773C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5076122918CAA7470043773C /* XCTest.framework */; };
-		5076122B18CAA7470043773C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5076120718CAA7460043773C /* Foundation.framework */; };
-		5076122C18CAA7470043773C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5076120B18CAA7460043773C /* UIKit.framework */; };
-		5076123418CAA7470043773C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5076123218CAA7470043773C /* InfoPlist.strings */; };
-		5076123618CAA7470043773C /* Bible_AssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076123518CAA7470043773C /* Bible_AssistantTests.m */; };
 		5076124318CAC2910043773C /* BABibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076124218CAC2910043773C /* BABibleViewController.m */; };
 		5076124618CAC2D60043773C /* BABibleVolumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076124518CAC2D60043773C /* BABibleVolumeCell.m */; };
 		5076124918CAC6060043773C /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076124818CAC6060043773C /* UIColor+AppColor.m */; };
@@ -54,16 +49,6 @@
 		9D57ED43204649E69C45849D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8B36E577DC4AA98689D42B /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5076122D18CAA7470043773C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 507611FC18CAA7460043773C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5076120318CAA7460043773C;
-			remoteInfo = "Bible Assistant";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4793EEB818E3BF0500CBBA0C /* BAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BAModel.xcdatamodel; sourceTree = "<group>"; };
 		4793EEC018E4019700CBBA0C /* BABookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BABookmarksViewController.h; path = Bookmark/BABookmarksViewController.h; sourceTree = "<group>"; };
@@ -86,7 +71,6 @@
 		501C56641905480C0098937E /* BAAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAudioPlayer.m; sourceTree = "<group>"; };
 		50505ACB18E1B89F00F82C36 /* BABibleTextCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BABibleTextCellDelegate.h; path = Bible/BABibleTextCellDelegate.h; sourceTree = "<group>"; };
 		5056AF2718E47832003E4A7C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		5056AF2818E47832003E4A7C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		5076120418CAA7460043773C /* Bible Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5076120718CAA7460043773C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5076120918CAA7460043773C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,11 +84,6 @@
 		5076121A18CAA7460043773C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		5076121D18CAA7460043773C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5076122218CAA7470043773C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5076122818CAA7470043773C /* Bible AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5076122918CAA7470043773C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5076123118CAA7470043773C /* Bible AssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bible AssistantTests-Info.plist"; sourceTree = "<group>"; };
-		5076123318CAA7470043773C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5076123518CAA7470043773C /* Bible_AssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_AssistantTests.m; sourceTree = "<group>"; };
 		5076124118CAC2910043773C /* BABibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BABibleViewController.h; path = Bible/BABibleViewController.h; sourceTree = "<group>"; };
 		5076124218CAC2910043773C /* BABibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BABibleViewController.m; path = Bible/BABibleViewController.m; sourceTree = "<group>"; };
 		5076124418CAC2D60043773C /* BABibleVolumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BABibleVolumeCell.h; path = Bible/BABibleVolumeCell.h; sourceTree = "<group>"; };
@@ -162,16 +141,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5076122518CAA7470043773C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5076122A18CAA7470043773C /* XCTest.framework in Frameworks */,
-				5076122C18CAA7470043773C /* UIKit.framework in Frameworks */,
-				5076122B18CAA7470043773C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -225,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				5076120D18CAA7460043773C /* Bible Assistant */,
-				5076122F18CAA7470043773C /* Bible AssistantTests */,
 				5076120618CAA7460043773C /* Frameworks */,
 				5076120518CAA7460043773C /* Products */,
 				07FD0806A1D18E9ED83053B4 /* Pods */,
@@ -236,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				5076120418CAA7460043773C /* Bible Assistant.app */,
-				5076122818CAA7470043773C /* Bible AssistantTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,7 +214,6 @@
 				5076120718CAA7460043773C /* Foundation.framework */,
 				5076120918CAA7460043773C /* CoreGraphics.framework */,
 				5076120B18CAA7460043773C /* UIKit.framework */,
-				5076122918CAA7470043773C /* XCTest.framework */,
 				FF8B36E577DC4AA98689D42B /* libPods.a */,
 			);
 			name = Frameworks;
@@ -290,24 +256,6 @@
 				5076121018CAA7460043773C /* InfoPlist.strings */,
 				5076121318CAA7460043773C /* main.m */,
 				5076121518CAA7460043773C /* Bible Assistant-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5076122F18CAA7470043773C /* Bible AssistantTests */ = {
-			isa = PBXGroup;
-			children = (
-				5076123518CAA7470043773C /* Bible_AssistantTests.m */,
-				5076123018CAA7470043773C /* Supporting Files */,
-			);
-			path = "Bible AssistantTests";
-			sourceTree = "<group>";
-		};
-		5076123018CAA7470043773C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5076123118CAA7470043773C /* Bible AssistantTests-Info.plist */,
-				5076123218CAA7470043773C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -406,24 +354,6 @@
 			productReference = 5076120418CAA7460043773C /* Bible Assistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5076122718CAA7470043773C /* Bible AssistantTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5076123C18CAA7470043773C /* Build configuration list for PBXNativeTarget "Bible AssistantTests" */;
-			buildPhases = (
-				5076122418CAA7470043773C /* Sources */,
-				5076122518CAA7470043773C /* Frameworks */,
-				5076122618CAA7470043773C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5076122E18CAA7470043773C /* PBXTargetDependency */,
-			);
-			name = "Bible AssistantTests";
-			productName = "Bible AssistantTests";
-			productReference = 5076122818CAA7470043773C /* Bible AssistantTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -442,9 +372,6 @@
 							};
 						};
 					};
-					5076122718CAA7470043773C = {
-						TestTargetID = 5076120318CAA7460043773C;
-					};
 				};
 			};
 			buildConfigurationList = 507611FF18CAA7460043773C /* Build configuration list for PBXProject "Bible Assistant" */;
@@ -462,7 +389,6 @@
 			projectRoot = "";
 			targets = (
 				5076120318CAA7460043773C /* Bible Assistant */,
-				5076122718CAA7470043773C /* Bible AssistantTests */,
 			);
 		};
 /* End PBXProject section */
@@ -477,14 +403,6 @@
 				5076122318CAA7470043773C /* Images.xcassets in Resources */,
 				5076121B18CAA7460043773C /* Main_iPhone.storyboard in Resources */,
 				5076121218CAA7460043773C /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5076122618CAA7470043773C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5076123418CAA7470043773C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,23 +508,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5076122418CAA7470043773C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5076123618CAA7470043773C /* Bible_AssistantTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5076122E18CAA7470043773C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5076120318CAA7460043773C /* Bible Assistant */;
-			targetProxy = 5076122D18CAA7470043773C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5076121018CAA7460043773C /* InfoPlist.strings */ = {
@@ -632,15 +534,6 @@
 				5076121D18CAA7460043773C /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		5076123218CAA7470043773C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5076123318CAA7470043773C /* en */,
-				5056AF2818E47832003E4A7C /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -757,48 +650,6 @@
 			};
 			name = Release;
 		};
-		5076123D18CAA7470043773C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bible Assistant.app/Bible Assistant";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bible Assistant/Bible Assistant-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Bible AssistantTests/Bible AssistantTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nixWork.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5076123E18CAA7470043773C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bible Assistant.app/Bible Assistant";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bible Assistant/Bible Assistant-Prefix.pch";
-				INFOPLIST_FILE = "Bible AssistantTests/Bible AssistantTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nixWork.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -816,15 +667,6 @@
 			buildConfigurations = (
 				5076123A18CAA7470043773C /* Debug */,
 				5076123B18CAA7470043773C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5076123C18CAA7470043773C /* Build configuration list for PBXNativeTarget "Bible AssistantTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5076123D18CAA7470043773C /* Debug */,
-				5076123E18CAA7470043773C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
