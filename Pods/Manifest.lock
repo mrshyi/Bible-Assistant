@@ -1,12 +1,12 @@
 PODS:
-  - FFCircularProgressView (0.4)
-  - MagicalRecord (2.2):
-    - MagicalRecord/Core
-  - MagicalRecord/Core (2.2)
-  - MBProgressHUD (0.8)
-  - Ono (0.0.4)
-  - Reachability (3.1.1)
-  - SGNavigationProgress (1.1)
+  - FFCircularProgressView (0.5)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MBProgressHUD (0.9.2)
+  - Ono (1.2.2)
+  - Reachability (3.2)
+  - SGNavigationProgress (1.2)
 
 DEPENDENCIES:
   - FFCircularProgressView
@@ -17,11 +17,11 @@ DEPENDENCIES:
   - SGNavigationProgress
 
 SPEC CHECKSUMS:
-  FFCircularProgressView: 73a1eb8c3c6a2a77b0fb4e7fdb1f3417688b0d4d
-  MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
-  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
-  Ono: 8b2fcd9191b87b9efccf166f8ed5da1debd80141
-  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
-  SGNavigationProgress: 322ccebdf07efb9418f67113d561c48472b9055b
+  FFCircularProgressView: 683a4ab1e1bd613246a3dffa61503ffdebcde8d8
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SGNavigationProgress: f04e3bd0058c53e1172ee020b5239f22aa9e4a0f
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.39.0
